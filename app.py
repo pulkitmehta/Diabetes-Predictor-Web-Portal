@@ -59,7 +59,7 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/home')
 def hello_world():
-    return render_template('Templates/home.html')
+    return render_template('/Templates/home.html')
 
 
 
@@ -87,9 +87,9 @@ def predict():
 		else:
 			pred="Diabetic"
 
-		return render_template('Templates/home.html', pred_text=pred, n=pn+" seems to be ")
+		return render_template('/Templates/home.html', pred_text=pred, n=pn+" seems to be ")
 	except:
-		return render_template('Templates/home.html')
+		return render_template('/Templates/home.html')
 
 
 
