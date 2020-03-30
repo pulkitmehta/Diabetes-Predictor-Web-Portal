@@ -1,6 +1,5 @@
 # Diabetes Predictor Web Portal
-     ![SS]
-     (/1.png)
+     ![SS](https://github.com/pulkitmehta/Diabetes-Predictor-Web-Portal/blob/master/1.png)
  
  
     An online web portal which predicts Diabetes. 
